@@ -1,0 +1,233 @@
+@media (max-width: 1300px) {
+    .main__article {
+        display: flex;
+        max-width: 100%;
+        height: 300.5px;
+        padding-bottom: 60px;
+    }
+    .head {
+        font-family: 'Tenor Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main__article {
+        display: flex;
+        max-width: 100%;
+        height: 300.5px;
+        padding-bottom: 60px;
+    }
+    .head {
+        font-family: 'Tenor Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .main__article {
+        display: flex;
+        max-width: 100%;
+        height: 275px;
+        padding-bottom: 60px;
+    }
+    .main__padding {
+        padding-top: 45px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .description {
+        line-height: 16px;
+    }
+    .autor {
+        margin-bottom: 35px;
+    }
+    .footer__padding {
+        padding-top: 45px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .logo {
+        margin-left: 60px;
+    }
+    .buttons {
+        margin-right: 60px;
+    }
+    .main__picture {
+        max-width: 368px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main__padding {
+        padding-top: 22.5px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .main__article {
+        height: 175px;
+        padding-bottom: 30px;
+    }
+    .footer__links__last {
+        padding-bottom: 15px;
+    }
+    .logo {
+        margin-left: 30px;
+    }
+    .buttons {
+        margin-right: 30px;
+    }
+    .tag {
+        font-size: 7px;
+    }
+    .head {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .description {
+        visibility: hidden;
+        height: 0px;
+        margin: 0;
+    }
+    .autor {
+        margin-top: 0;
+    }
+    .featured {
+        margin-top: 50px;
+    }
+    .secondary__head {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .wrapper {
+        width: 49%;
+    }
+    .footer__padding {
+        padding-top: 22.5px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .footer__links {
+        flex-wrap: wrap;
+    }
+    .footer__names {
+        visibility: hidden;
+        height: 0;
+    }
+    .links {
+        margin-bottom: 10px;
+    }
+    .mail {
+        padding-left: 80px;
+    }
+    .footer__button {
+        width: 108px;
+    }
+    .button__links {
+        display: none;
+    }
+    .header__button {
+        display: block;
+        height: 75px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+    }
+    .buttons {
+       margin-top: 0;
+       margin-bottom: 0;
+    }
+    .featured {
+        margin-top: 0px;
+    }
+    
+}
+
+@media (max-width: 414px) {
+    .mail {
+        padding-left: 65px;
+    }
+    .head{
+        line-height: 22px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .secondary__head {
+        font-size: 15px;
+    }
+    .autor {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 390px) {
+    .mail {
+        padding-left: 45px;
+    }
+    .links {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 376px) {
+    .head {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .main__article {
+        height: 160px;
+    }
+    .mail {
+        padding-left: 30px;
+    }
+    .links {
+        font-size: 11px;
+    }
+    .footer__top {
+        font-size: 9px;
+    }
+    .featured {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 320px) {
+    .links {
+        font-size: 9px;
+    }
+    .mail {
+        padding-left: 23px;
+    }
+    .footer__button {
+        width: 60px;
+    }
+    .main__article {
+        height: 140px;
+    }
+    .head{
+        font-size: 15px;
+        line-height: 15px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .autor {
+        font-size: 9px;
+    }
+    .secondary__head {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .featured {
+        margin-top: 0px;
+    }
+}
