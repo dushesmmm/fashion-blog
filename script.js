@@ -31,8 +31,8 @@ modeSwitcher.addEventListener("click", (e) => {
         body.style.cssText = 'background-color: #1a1a1a';
         h1.forEach((element) => {element.style.cssText = 'color: #c1c1c1';});
         autor.forEach((element) => {element.style.cssText = 'color: #c1c1c1';});
-        modeSwitcher.src = '/img/light.svg';
-        logo.src = '/img/logowhite.svg';
+        modeSwitcher.src = './img/light.svg';
+        logo.src = './img/logowhite.svg';
         nav.forEach((element) => {element.style.cssText = 'color: #ffff';});
         modeSwitcher.classList.remove("dark");
     } else {
@@ -40,8 +40,8 @@ modeSwitcher.addEventListener("click", (e) => {
         h1.forEach((element) => {element.style.cssText = 'color: #000000';});
         autor.forEach((element) => {element.style.cssText = 'color: #000000';});
         modeSwitcher.classList.add("dark");
-        modeSwitcher.src = '/img/dark.svg';
-        logo.src = '/img/logo.svg';
+        modeSwitcher.src = './img/dark.svg';
+        logo.src = './img/logo.svg';
         nav.forEach((element) => {element.style.cssText = 'color: #000000';});
     }
     
