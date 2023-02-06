@@ -12,11 +12,81 @@ const showBtn = document.querySelector(".show__button"),
     navBars = document.querySelectorAll(".bar"),
     burgerMenu = document.querySelector(".header__button"),
     burgerPopUp = document.querySelector(".nav__window"),
-    burgerLinks = document.querySelectorAll('.burger__links');
+    burgerLinks = document.querySelectorAll('.burger__links'),
+    prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
 let counter = 0;
 
-showBtn.addEventListener("click", (e) => {
+    if (localStorage.getItem("theme") == null) {
+        if (prefersDarkScheme.matches) {
+            localStorage.setItem("theme", "light");
+        } else {
+            localStorage.setItem("theme", "dark");
+        }
+        
+    }
+    
+
+
+    if (localStorage.getItem("theme") == "dark") {
+        setLightTheme();
+    } else if (localStorage.getItem("theme") == "light") {
+        setDarkTheme();
+    }
+
+    
+
+    function setLightTheme() {
+            body.style.cssText = 'background-color: #E5E5E5';
+            h1.forEach((element) => {
+                element.style.cssText += 'color: #000000';
+            });
+            autor.forEach((element) => {
+                element.style.cssText += 'color: #000000';
+            });
+            modeSwitcher.forEach((element) => {element.classList.add("dark");});
+            modeSwitcher.forEach((element) => {element.src = './img/dark.svg';});
+            logo.src = './img/logo.svg';
+            nav.forEach((element) => {
+                element.style.cssText += 'color: #000000';
+            });
+            navBars.forEach((element) => {
+                element.classList.remove('lightbar');
+                element.classList.add('darkbar');
+            });
+            burgerLinks.forEach((element) => {
+                element.style.color = 'black';
+            });
+            localStorage.setItem("theme", "dark" );
+}
+
+    function setDarkTheme() {
+        if (localStorage.getItem("theme") == "light") {
+            body.style.cssText += 'background-color: #1a1a1a';
+            h1.forEach((element) => {
+                element.style.color = '#c1c1c1';
+            });
+            autor.forEach((element) => {
+                element.style.color = '#c1c1c1';
+            });
+            modeSwitcher.forEach((element) => {element.src = './img/light.svg';});
+            logo.src = './img/logowhite.svg';
+            nav.forEach((element) => {
+                element.style.cssText += 'color: #ffff';
+            });
+            modeSwitcher.forEach((element) => {element.classList.remove('dark');});
+            navBars.forEach((element) => {
+                element.classList.remove('darkbar');
+                element.classList.add('lightbar');
+            });
+            burgerLinks.forEach((element) => {
+                element.style.color = 'white';
+            });
+            localStorage.setItem("theme", "light" );
+    }
+}
+
+showBtn.addEventListener("click", () => {
     let i = counter;
 
     hiddenArticles[i].classList.remove('hidden');
@@ -29,7 +99,7 @@ showBtn.addEventListener("click", (e) => {
 });
 
 modeSwitcher.forEach((element) => element.addEventListener("click", (e) => {
-    if (element.classList.length == 2) {
+    if (localStorage.getItem("theme") == "dark") {
         body.style.cssText += 'background-color: #1a1a1a';
         h1.forEach((element) => {
             element.style.color = '#c1c1c1';
@@ -50,7 +120,9 @@ modeSwitcher.forEach((element) => element.addEventListener("click", (e) => {
         burgerLinks.forEach((element) => {
             element.style.color = 'white';
         });
+        localStorage.setItem("theme", 'light' );
     } else {
+        localStorage.setItem("theme", "dark");
         body.style.cssText = 'background-color: #E5E5E5';
         h1.forEach((element) => {
             element.style.cssText += 'color: #000000';
@@ -71,9 +143,11 @@ modeSwitcher.forEach((element) => element.addEventListener("click", (e) => {
         burgerLinks.forEach((element) => {
             element.style.color = 'black';
         });
+        localStorage.setItem("theme", 'dark');
     }
 
 }));
+
 
 burgerMenu.addEventListener('click', (e) => {
     if (navBars[0].classList.length == 2) {
