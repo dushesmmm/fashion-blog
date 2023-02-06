@@ -78,7 +78,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
     .main__padding {
         padding-top: 22.5px;
         padding-right: 30px;
