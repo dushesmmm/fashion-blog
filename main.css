@@ -3,6 +3,7 @@ body {
     margin: 0;
     background: #E5E5E5;
     max-width: 100%;
+    transition: all 0.5s ease-out
 }
 
 header {
@@ -36,9 +37,18 @@ a {
 .button__links {
     position: relative;
 
-    padding: 33px 20px;
+    padding: 33px 10px;
 
     color: black;
+    text-transform: uppercase;
+}
+
+.mode {
+    display: flex;
+    max-width: 17px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    cursor: pointer;
 }
 
 .footer {
@@ -220,6 +230,7 @@ span {
 
 .picture {
     width: auto;
+    box-shadow: 3.2px 6.4px 6.4px hsl(0deg 0% 0% / 40%)
 }
 
 .text {
@@ -261,7 +272,7 @@ span {
     letter-spacing: 1px;
     text-transform: uppercase;
 
-    color: #999999;
+    color: #666666;
 }
 
 .autor {
@@ -298,6 +309,7 @@ span {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+    border: 3.2px 6.4px 6.4px hsl(0deg 0% 0% / 40%)
 }
 
 .secondary__head {
@@ -329,4 +341,30 @@ span {
 
 .main__picture {
     margin-bottom: 30px;
+    box-shadow: 3.2px 6.4px 6.4px hsl(0deg 0% 0% / 40%)
+}
+
+.hidden {
+    display: none;
+}
+
+
+.show__button {
+    margin: auto;
+    margin-bottom: 50px;
+
+    background: #141414;
+    border-radius: 0px;
+    height: 55px;
+    width: 150px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;;
 }
