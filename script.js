@@ -80,7 +80,7 @@ burgerMenu.addEventListener('click', (e) => {
         navBars.forEach(elem => {
             elem.classList.add("open");
         });
-        burgerPopUp.style.bottom = "650px";
+        burgerPopUp.style.bottom = "600px";
         setTimeout(() => {
             burgerPopUp.style.position = "inherit";
         }, 200);
@@ -91,6 +91,6 @@ burgerMenu.addEventListener('click', (e) => {
         burgerPopUp.style.bottom = "100%";
         setTimeout(() => {
             burgerPopUp.style.position = "absolute";
-        }, 500);
+        }, 200);
     }
 });
