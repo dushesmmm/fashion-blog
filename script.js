@@ -91,6 +91,6 @@ burgerMenu.addEventListener('click', (e) => {
         burgerPopUp.style.bottom = "100%";
         setTimeout(() => {
             burgerPopUp.style.position = "absolute";
-        }, 200);
+        }, 500);
     }
 });
