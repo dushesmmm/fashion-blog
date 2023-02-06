@@ -48,7 +48,7 @@ modeSwitcher.forEach((element) => element.addEventListener("click", (e) => {
             element.classList.add('lightbar');
         });
         burgerLinks.forEach((element) => {
-            element.style.color = 'color: #ffff';
+            element.style.color = 'white';
         });
     } else {
         body.style.cssText = 'background-color: #E5E5E5';
@@ -69,7 +69,7 @@ modeSwitcher.forEach((element) => element.addEventListener("click", (e) => {
             element.classList.add('darkbar');
         });
         burgerLinks.forEach((element) => {
-            element.style.color = '#00000';
+            element.style.color = 'black';
         });
     }
 
