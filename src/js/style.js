@@ -42,9 +42,9 @@ function setLightTheme() {
         element.classList.add("dark");
     });
     modeSwitcher.forEach((element) => {
-        element.src = './src/img/dark.svg';
+        element.src = '/src/img/dark.svg';
     });
-    logo.src = './src/img/logo.svg';
+    logo.src = '/src/img/logo.svg';
     nav.forEach((element) => {
         element.style.cssText += 'color: #000000';
     });
@@ -68,9 +68,9 @@ function setDarkTheme() {
             element.style.color = '#c1c1c1';
         });
         modeSwitcher.forEach((element) => {
-            element.src = './src/img/light.svg';
+            element.src = '/src/img/light.svg';
         });
-        logo.src = './src/img/logowhite.svg';
+        logo.src = '/src/img/logowhite.svg';
         nav.forEach((element) => {
             element.style.cssText += 'color: #ffff';
         });
@@ -97,8 +97,8 @@ modeSwitcher.forEach((element) => element.addEventListener("click", (e) => {
         autor.forEach((element) => {
             element.style.color = '#c1c1c1';
         });
-        element.src = './src/img/light.svg';
-        logo.src = './src/img/logowhite.svg';
+        element.src = '/src/img/light.svg';
+        logo.src = '/src/img/logowhite.svg';
         nav.forEach((element) => {
             element.style.cssText += 'color: #ffff';
         });
@@ -121,8 +121,8 @@ modeSwitcher.forEach((element) => element.addEventListener("click", (e) => {
             element.style.cssText += 'color: #000000';
         });
         element.classList.add("dark");
-        element.src = './src/img/dark.svg';
-        logo.src = './src/img/logo.svg';
+        element.src = '/src/img/dark.svg';
+        logo.src = '/src/img/logo.svg';
         nav.forEach((element) => {
             element.style.cssText += 'color: #000000';
         });
