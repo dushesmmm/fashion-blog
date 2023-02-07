@@ -1,0 +1,133 @@
+@media (max-width: 1441px) {
+    .head {
+        font-size: 24px;
+    }
+    .description {
+        font-size: 18px;
+        line-height: 20px
+    }
+}
+
+@media (max-width: 1025px) {
+    .main__padding {
+        padding-top: 45px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .logo {
+        margin-left: 60px;
+    }
+
+    .buttons {
+        margin-right: 60px;
+    }
+    .article {
+        height: 375px;
+    }
+    .article__image {
+        width: 500px;
+    }
+    .head {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .description {
+        font-size: 16px;
+        line-height: 18px
+    }
+}
+
+@media (max-width: 768px) {
+    .article {
+        height: 250px;
+    }
+    .article__image {
+        width: 300px;
+    }
+    .head {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .description {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0;
+    }
+    .autor {
+        font-weight: 400;
+    }
+    .text {
+        margin-left: 2%;
+    }
+    .main__padding {
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .logo {
+        margin-left: 30px;
+    }
+
+    .buttons {
+        margin-right: 30px;
+    }
+    .footer__padding {
+        padding-top: 22.5px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 451px) {
+    .article__image {
+        width: 100%;
+        margin: 0;
+    }
+    .description {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .article {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .mail {
+        padding-left: 80px;
+    }
+    .main__padding {
+        padding-top: 0;
+    }
+    .autor {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .tag {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 376px) {
+    .mail {
+    padding-left: 30px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .links {
+        font-size: 9px;
+    }
+
+    .mail {
+        padding-left: 23px;
+    }
+
+    .footer__button {
+        width: 60px;
+    }
+
+    .autor {
+        font-size: 9px;
+    }
+}
+    
