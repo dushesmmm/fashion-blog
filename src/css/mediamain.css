@@ -1,3 +1,19 @@
+@media (max-width: 1714px) {
+    .added {
+        display: none;
+    }
+}
+
+@media (max-width: 1441px) {
+    .added {
+        display: block;
+    }
+    .description {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
 @media (max-width: 1300px) {
     .main__article {
         display: flex;
@@ -18,6 +34,9 @@
 }
 
 @media (max-width: 1024px) {
+    .added {
+        display: none;
+    }
     .main__article {
         display: flex;
         max-width: 100%;
@@ -46,6 +65,7 @@
     }
 
     .description {
+        font-size: 16px;
         line-height: 16px;
     }
 

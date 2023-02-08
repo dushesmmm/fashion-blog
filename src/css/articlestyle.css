@@ -20,6 +20,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 .head {
@@ -118,4 +119,10 @@ swiper-container {
 
 :root {
     --swiper-theme-color: #666666;
+}
+
+.swiper-pagination span {
+    opacity: 1;
+    border: white solid 1px;
+    background-color: transparent;
 }

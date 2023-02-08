@@ -101,6 +101,9 @@
     .tag {
         font-size: 9px;
     }
+    .text {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 376px) {
