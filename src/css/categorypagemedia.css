@@ -49,12 +49,9 @@
         line-height: 16px;
     }
     .description {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 16px;
         margin: 0;
-    }
-    .autor {
-        font-weight: 400;
     }
     .text {
         margin-left: 2%;

@@ -70,6 +70,10 @@
     width: 49%;
 }
 
+.wrapper__featured img {
+    width: calc(50vw);
+}
+
 .third__articles {
     display: flex;
     flex-wrap: wrap;
@@ -105,4 +109,12 @@
     color: #FFFFFF;
     cursor: pointer;
     border: none;
+
+    box-shadow: 3.2px 6.4px 6.4px hsl(0deg 0% 0% / 40%);
 }
+
+.show__button:hover {
+    transition: 1s;
+    transform: translate(0px, -5px);
+}
+

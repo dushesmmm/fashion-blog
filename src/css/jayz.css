@@ -1,0 +1,27 @@
+.head {
+    font-size: 50px;
+}
+
+@media (max-width: 1441px) {
+    .head {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .head {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .head {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .head {
+        font-size: 12px;
+    }
+}
