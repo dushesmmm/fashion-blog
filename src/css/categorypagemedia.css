@@ -1,15 +1,89 @@
-@media (max-width: 1441px) {
+@media (max-width: 1624px) {
     .head {
-        font-size: 24px;
+        font-size: 29px;
     }
     .description {
-        font-size: 18px;
-        line-height: 20px
+        font-size: 23px;
+        line-height: 23px;
     }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1539px) {
+    .head {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .description {
+        font-size: 22px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 1505px) {
+    .head {
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .description {
+        font-size: 21px;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 1449px) {
+    .head {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .description {
+        font-size: 18px;
+        line-height: 18px
+    }
+}
+
+@media (max-width: 1339px) {
+    .text {
+        margin-left: 3%;
+    }
+}
+
+@media (max-width: 1309px) {
+    .article {
+        height: 450px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .head {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .description {
+        font-size: 16px;
+        line-height: 16px
+    }
+}
+
+@media (max-width: 1168px) {
+    .article {
+        height: 400px;
+    }
+    .head {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
     .main__padding {
+        padding-top: 45px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .burger__popup {
+        padding-left: 60px;
+    }
+    .footer__padding {
         padding-top: 45px;
         padding-right: 60px;
         padding-left: 60px;
@@ -29,20 +103,37 @@
     }
     .head {
         font-size: 18px;
-        line-height: 20px;
+        line-height: 18px;
     }
     .description {
         font-size: 16px;
-        line-height: 18px
+        line-height: 16px
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 954px) {
+    .article {
+        height: 325px;
+    }
+    .article__image {
+        width: 433px;
+    }
+    .head {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .description {
+        font-size: 15px;
+        line-height: 15px
+    }
+}
+
+@media (max-width: 908px) {
     .article {
         height: 250px;
     }
     .article__image {
-        width: 300px;
+        width: 333px;
     }
     .head {
         font-size: 16px;
@@ -50,7 +141,7 @@
     }
     .description {
         font-size: 13px;
-        line-height: 16px;
+        line-height: 14px;
         margin: 0;
     }
     .text {
@@ -59,6 +150,9 @@
     .main__padding {
         padding-top: 30px;
         padding-right: 30px;
+        padding-left: 30px;
+    }
+    .burger__popup {
         padding-left: 30px;
     }
     .logo {
@@ -75,7 +169,7 @@
     }
 }
 
-@media (max-width: 451px) {
+@media (max-width: 750px) {
     .article__image {
         width: 100%;
         margin: 0;
@@ -87,9 +181,6 @@
     .article {
         height: fit-content;
         flex-wrap: wrap;
-    }
-    .mail {
-        padding-left: 80px;
     }
     .main__padding {
         padding-top: 0;
@@ -107,9 +198,6 @@
 }
 
 @media (max-width: 376px) {
-    .mail {
-    padding-left: 30px;
-    }
 
 }
 
@@ -117,14 +205,7 @@
     .links {
         font-size: 9px;
     }
-
-    .mail {
-        padding-left: 23px;
-    }
-
-    .footer__button {
-        width: 60px;
-    }
+    
 
     .autor {
         font-size: 9px;

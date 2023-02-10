@@ -157,3 +157,16 @@ burgerMenu.addEventListener('click', (e) => {
         }, 200);
     }
 });
+
+let spam = 0;
+
+modeSwitcher.forEach((element) => {
+    element.addEventListener("click", () => {
+        spam += 1;
+        console.log(spam);
+        if (spam >= 25) {
+            window.open("https://youtu.be/EgRp0KUWBKE");
+            spam = 0;
+        }
+    });
+});

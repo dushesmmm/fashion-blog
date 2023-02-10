@@ -16,6 +16,7 @@
 
     .description {
         font-size: 25px;
+        line-height: 25px;
     }
 
     .main__text {
@@ -30,10 +31,12 @@
 @media (max-width: 769px) {
     .head {
         font-size: 20px;
+        line-height: 20px;
     }
 
     .description {
         font-size: 20px;
+        line-height: 20px;
     }
 
     .main__text {
@@ -52,6 +55,7 @@
 
     .description {
         font-size: 15px;
+        line-height: 15px;
     }
 
     .main__text {
@@ -74,6 +78,7 @@
 
     .description {
         font-size: 14px;
+        line-height: 15px;
     }
 
     .main__text {
